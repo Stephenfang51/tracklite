@@ -1,4 +1,4 @@
-<h3 align='center'>Tracklite</h3>
+<h1 align='center'>Tracklite</h1>
 
 ## Introduction
 
