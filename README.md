@@ -1,6 +1,6 @@
 <h3 align='center'>Tracklite</h3>
 
-### Introduction
+## Introduction
 
 This repo using TensorRT to speed up yolov3 backbone and work with [deep_sort torch](https://github.com/ZQPei/deep_sort_pytorch).  mainly run on **Nvidia Jetson Nano** but x86 may also works. haven't tried yet. note that it is a inference pipeline not for training model.
 
@@ -10,7 +10,7 @@ Thanks for [ZQPei](https://github.com/ZQPei)'s great work. and also thanks to [j
 
 ------
 
-### Update
+## Update
 
 2020.4.11
 
@@ -18,7 +18,7 @@ Thanks for [ZQPei](https://github.com/ZQPei)'s great work. and also thanks to [j
 
 ------
 
-### Speed
+## Speed
 
 Environment
 
@@ -35,7 +35,7 @@ will add yolov3-tiny soon
 
 ------
 
-### Install
+## Install
 
 follow my step to set up everything
 
@@ -71,7 +71,7 @@ sh build.sh
 
 
 
-#### Convert yolov3 weights to onnx to tensorrt
+## Convert yolov3 weights to onnx to tensorrt
 
 1. firstly check the yolo weights under **weights directory** and just simply command like below to convert yolov3.weights file to onnx,  and onnx will be yielded at the same dir ( ./weights/yolov3_416.onnx )
 
@@ -89,7 +89,7 @@ sh build.sh
 
 ------
 
-#### Demo
+## Demo
 
 support video and webcam demo for now
 
@@ -118,10 +118,10 @@ support video and webcam demo for now
 
 
 
-set gif here!!!!!
+![twice.gif](https://github.com/Stephenfang51/tracklite/blob/master/example/twice.gif)
 
 ------
 
-#### Issue 
+## Issue 
 
 I had a hard time on saving video, now the VideoWriter works for me, but it might not work for you, issue me if you have any problem.
