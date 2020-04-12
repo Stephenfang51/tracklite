@@ -4,8 +4,6 @@
 
 This repo using TensorRT to speed up yolov3 backbone and work with [deep_sort torch](https://github.com/ZQPei/deep_sort_pytorch).  mainly run on **Nvidia Jetson Nano** but x86 may also works. haven't tried yet. note that it is a inference pipeline not for training model.
 
-currently only support yolov3 trt for now,  yolov3 tiny  will be released soon.
-
 Thanks for [ZQPei](https://github.com/ZQPei)'s great work. and also thanks to [jkjung-avt](https://github.com/jkjung-avt) for his [tensorrt_demos](https://github.com/jkjung-avt/tensorrt_demos), which give me a a lot to learn.
 
 ------
@@ -30,8 +28,6 @@ Whole process time from read image to finished deepsort (include every img prepr
 | :-------------- | --------------- | ------------------------------ | ------------------------- |
 | Yolov3_416      | 750ms           | 450ms                          | 1.5 ~ 2                   |
 | Yolov3-tiny-416 | N/A             | 100-150ms                      | 8 ~ 9                     |
-
-will add yolov3-tiny soon
 
 ------
 
