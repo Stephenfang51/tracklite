@@ -145,7 +145,7 @@ support
   python3 run_tracker_tiny.py --file --filename your_test.mp4 --output_file ./output.mp4
   ```
 
-[walking.gif](https://img-blog.csdnimg.cn/20200412151326127.gif)
+![walking.gif](https://img-blog.csdnimg.cn/20200412151326127.gif)
 
 ![twice.gif](https://github.com/Stephenfang51/tracklite/blob/master/example/twice.gif)
 
