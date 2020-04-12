@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repo using TensorRT to speed up yolov3 backbone and work with [deep_sort torch](https://github.com/ZQPei/deep_sort_pytorch).  mainly run on **Nvidia Jetson Nano** but x86 may also works. haven't tried yet. note that it is a inference pipeline not for training model.
+This repo using TensorRT to speed up yolov3 backbone and work with [deep_sort torch](https://github.com/ZQPei/deep_sort_pytorch).  mainly run on **Nvidia Jetson Nano** but x64 may also works. haven't tried yet. note that it is a inference pipeline not for training model.
 
 Thanks for [ZQPei](https://github.com/ZQPei)'s great work. and also thanks to [jkjung-avt](https://github.com/jkjung-avt) for his [tensorrt_demos](https://github.com/jkjung-avt/tensorrt_demos), which give me a a lot to learn.
 
@@ -145,7 +145,7 @@ support
   python3 run_tracker_tiny.py --file --filename your_test.mp4 --output_file ./output.mp4
   ```
 
-
+[walking.gif](https://img-blog.csdnimg.cn/20200412151326127.gif)
 
 ![twice.gif](https://github.com/Stephenfang51/tracklite/blob/master/example/twice.gif)
 
